@@ -1,9 +1,9 @@
 
 import java.util.*;
-//import org.apache.logging.log4j.LogManager;
-//import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
     public class calculator {
-//        private static final Logger logger = LogManager.getLogger(App.class);
+        private static final Logger logger = LogManager.getLogger(calculator.class);
         public static void main(String[] args){
             Scanner reader = new Scanner(System.in);
             int op, flag=0;
@@ -73,7 +73,7 @@ import java.util.*;
             System.out.println("");
             System.out.println("The Result is "+c);
             System.out.println("");
-//            logger.info("Executing squareRoot function!");
+            logger.info("Executing squareRoot function!");
             return c;
         }
 
@@ -83,7 +83,7 @@ import java.util.*;
             System.out.println("");
             System.out.println("The Result is "+c);
             System.out.println("");
-//            logger.info("Executing Factorial function!");
+            logger.info("Executing Factorial function!");
             return c;
         }
         public static double naturalLog(double num){
@@ -91,7 +91,7 @@ import java.util.*;
             System.out.println("");
             System.out.println("The Result is "+ c);
             System.out.println("");
-//            logger.info("Executing naturalLog function!");
+            logger.info("Executing naturalLog function!");
             return c;
         }
         public static double power(double num, double exp){
@@ -99,7 +99,7 @@ import java.util.*;
             System.out.println("");
             System.out.println("The Result is "+ c);
             System.out.println("");
-//            logger.info("Executing Power function!");
+            logger.info("Executing Power function!");
             return c;
         }
 
