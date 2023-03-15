@@ -9,8 +9,9 @@ import org.apache.logging.log4j.Logger;
             int op, flag=0;
             double num, exp;
             int numm;
-            System.out.println("------------Calculator--------------");
+
             do{
+                System.out.println("------------Calculator--------------");
                 System.out.println("Choices of Operations:");
                 System.out.println("");
                 System.out.println("1. Square root");
