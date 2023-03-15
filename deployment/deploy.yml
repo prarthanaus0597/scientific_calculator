@@ -6,5 +6,5 @@
   tasks:
     - name: Pull image
       docker_image:
-        name: prarthanaus0597/scientific_calculator:latest
+        name: prarthanaus0597/scientific_calculator:new
         source: pull
