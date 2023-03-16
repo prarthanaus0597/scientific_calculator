@@ -2,11 +2,16 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 public class calculatorTest {
+    private calculator calc;
+    @Before
+    public void setUp() {
+        calc = new calculator();
+    }
     @Test
     public void test_squareRoot() {
         double a = 25.0;
         double expectedResult = 5.0;
-        double result = calculator.squareRoot(a);
+        double result = calc.squareRoot(a);
         Assert.assertEquals(expectedResult, result, 0.0f);
     }
 
@@ -14,7 +19,7 @@ public class calculatorTest {
     public void test_factorial() {
         int a = 5;
         int expectedResult = 120;
-        int result = calculator.factorial(a);
+        int result = calc.factorial(a);
         Assert.assertEquals(expectedResult, result);
     }
 
@@ -22,7 +27,7 @@ public class calculatorTest {
     public void test_naturalLog() {
         double a = 2.718;
         double expectedResult = 1.0;
-        double result = calculator.naturalLog(a);
+        double result = calc.naturalLog(a);
         Assert.assertEquals(expectedResult, result, 0.2f);
     }
 
@@ -31,7 +36,7 @@ public class calculatorTest {
         double a = 2.0;
         double b = 5.0;
         double expectedResult = 32.0;
-        double result = calculator.power(a,b);
+        double result = calc.power(a,b);
         Assert.assertEquals(expectedResult, result, 0.0f);
     }
 }

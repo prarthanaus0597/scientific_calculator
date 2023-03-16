@@ -1,7 +1,2 @@
-16/Mar/2023:16:20:39 27,calculator.java, INFO, calculator Executing squareRoot function!
-16/Mar/2023:16:20:47 12,calculator.java, INFO, calculator Executing Power function!
-16/Mar/2023:16:20:55 67,calculator.java, INFO, calculator Executing Factorial function!
-16/Mar/2023:16:56:25 +0530,calculator.java, INFO, calculator Executing Factorial function!
-16/Mar/2023:16:56:25 +0530,calculator.java, INFO, calculator Executing naturalLog function!
-16/Mar/2023:16:56:25 +0530,calculator.java, INFO, calculator Executing squareRoot function!
-16/Mar/2023:16:56:25 +0530,calculator.java, INFO, calculator Executing Power function!
+16/Mar/2023:17:08:22 825,calculator.java, INFO, calculator Executing squareRoot function!
+16/Mar/2023:17:08:26 399,calculator.java, INFO, calculator Executing Factorial function!
