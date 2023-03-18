@@ -9,7 +9,7 @@ import org.apache.logging.log4j.Logger;
             int op, flag=0;
             double num, exp;
             int numm;
-
+            logger.info("message");
             do{
                 System.out.println("------------Calculator--------------");
                 System.out.println("Choices of Operations:");
