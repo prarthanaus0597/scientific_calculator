@@ -2,3 +2,7 @@
 2023-03-18 20:13:27.818 [main] INFO  calculator - Executing squareRoot function!
 2023-03-18 20:13:30.324 [main] INFO  calculator - Executing Factorial function!
 2023-03-18 20:13:34.215 [main] INFO  calculator - Executing naturalLog function!
+2023-03-20 19:40:02.154 [main] INFO  calculator - Executing Factorial function!
+2023-03-20 19:40:02.157 [main] INFO  calculator - Executing naturalLog function!
+2023-03-20 19:40:02.158 [main] INFO  calculator - Executing squareRoot function!
+2023-03-20 19:40:02.159 [main] INFO  calculator - Executing Power function!
