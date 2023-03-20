@@ -11,7 +11,7 @@ import org.apache.logging.log4j.Logger;
             int numm;
 
             do{
-                System.out.println("------------Calculator--------------");
+                System.out.println("------------Calculator Program--------------");
                 System.out.println("Choices of Operations:");
                 System.out.println("");
                 System.out.println("1. Square root");
