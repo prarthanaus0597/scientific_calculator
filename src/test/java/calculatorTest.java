@@ -9,8 +9,8 @@ public class calculatorTest {
     }
     @Test
     public void test_squareRoot() {
-        double val = 25.0;
-        double expectedResult = 5.0;
+        double val = 16.0;
+        double expectedResult = 4.0;
         double result = calc.squareRoot(val);
         Assert.assertEquals(expectedResult, result, 0.0f);
     }
